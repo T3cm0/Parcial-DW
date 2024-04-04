@@ -9,6 +9,6 @@ WORKDIR /app
 RUN ./mvnw clean install -DskipTests
 
 # Ejecuta la aplicación Spring Boot cuando se inicia el contenedor
-CMD ["java", "-jar", "target/Taller_DW_ThymeLeaf-main.jar"]
+CMD ["java", "-jar", "proyecto2.jar"]
 
 # CMD ["startup.sh"]
