@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/pagos")
+@RequestMapping("/proyecto dwe1 grupo_2_2/pagos")
 public class CPago {
 
     @Autowired

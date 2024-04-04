@@ -17,7 +17,7 @@ import com.example.proyecto.dto.DTOArrendador;
 import com.example.proyecto.service.SArrendador;
 
 @RestController
-@RequestMapping("/arrendadores")
+@RequestMapping("/proyecto dwe1 grupo_2_2/arrendadores")
 public class CArrendador {
 
     @Autowired
