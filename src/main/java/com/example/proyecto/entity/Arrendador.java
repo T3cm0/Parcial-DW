@@ -25,6 +25,4 @@ public class Arrendador {
         private boolean cuenta;
         @OneToMany(mappedBy = "arrendador", cascade = CascadeType.ALL, orphanRemoval = true)
         private List<Propiedades> propiedades;
-        @OneToMany(mappedBy = "arrendador", cascade = CascadeType.ALL, orphanRemoval = true)
-        private List<Token> token;
 }

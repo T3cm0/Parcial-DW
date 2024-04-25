@@ -3,7 +3,6 @@ package com.example.proyecto.service;
 import com.example.proyecto.dto.DTOArrendatario;
 import com.example.proyecto.entity.Arrendatario;
 import com.example.proyecto.entity.Solicitud;
-import com.example.proyecto.entity.Token;
 import com.example.proyecto.repository.RArrendatario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,7 +28,6 @@ public class SArrendatario {
         dtoArrendatario.setCuenta(arrendatario.isCuenta());
         // Establecer los IDs de las solicitudes y tokens aquí
         dtoArrendatario.setSolicitudesIds(arrendatario.getSolicitud().stream().map(Solicitud::getId).collect(Collectors.toList()));
-        dtoArrendatario.setTokensIds(arrendatario.getToken().stream().map(Token::getId).collect(Collectors.toList()));
 
         return dtoArrendatario;
     }

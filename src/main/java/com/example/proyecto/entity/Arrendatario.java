@@ -25,8 +25,5 @@ public class Arrendatario {
 
     @OneToMany(mappedBy = "arrendatario", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Solicitud> solicitud;
-
-    @OneToMany(mappedBy = "arrendatario", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Token> token;
 }
 
