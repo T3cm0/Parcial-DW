@@ -19,7 +19,6 @@ public class DTOArrendatario {
     private String password;
     private boolean cuenta;
     private List<Long> solicitudesIds;
-    private List<Long> tokensIds;
     // Opciones alternativas si necesitas más información
     // private List<Solicitud> solicitudes;
     // private List<Token> tokens;

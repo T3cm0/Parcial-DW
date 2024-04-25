@@ -6,12 +6,13 @@ import java.util.List;
 
 import org.hibernate.annotations.SQLDelete;
 
+
 @Entity
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@SQLDelete(sql = "UPDATE arrendador SET  status = 1 WHERE id=?")
+@SQLDelete(sql = "UPDATE application SET  status = 1 WHERE id=?")
 public class Arrendador {
 
         @Id
