@@ -1,0 +1,6 @@
+projectKey=DW_grupo_2_2
+serverUrl=http://sonarqube.dynaco.co
+serverVersion=10.3.0.82913
+dashboardUrl=http://sonarqube.dynaco.co/dashboard?id=DW_grupo_2_2
+ceTaskId=AY6pTz6VQuQxLU7RZCe5
+ceTaskUrl=http://sonarqube.dynaco.co/api/ce/task?id=AY6pTz6VQuQxLU7RZCe5
